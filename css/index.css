@@ -1,0 +1,238 @@
+
+/*.equipment{*/
+    /*width: 485px;*/
+    /*height: 350px;*/
+    /*margin: 0 auto;*/
+/*}*/
+/*/!*清除浮动*!/*/
+/*.clearfix:after {*/
+    /*content:" ";*/
+    /*display:block;*/
+    /*height:0;*/
+    /*visibility:hidden;*/
+    /*clear:both;*/
+/*}*/
+/*/!*头部*!/*/
+/*.equipment_head{*/
+    /*width: 100%;*/
+    /*height: 40px;*/
+    /*background-image:url(../imgs/foot_bg.png);*/
+    /*background-size:100% 100%;*/
+/*}*/
+/*.equipment_head>ul>li{*/
+    /*float: left;*/
+    /*width: 50%;*/
+    /*height: 100%;*/
+    /*text-align: center;*/
+/*}*/
+/*.equipment_head>ul>li span{*/
+    /*display: block;*/
+    /*height: 37px;*/
+    /*line-height: 37px;*/
+    /*width: 85px;*/
+    /*margin-left: 100px;*/
+/*}*/
+
+/*/!*点击事件动态添加的类名*!/*/
+/*.active-blue span{*/
+    /*border-bottom: 3px solid #2A80EE;*/
+    /*font-weight: 700;*/
+/*}*/
+/*.equipment>.equipment_head>ul>li:hover{*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*/!*中间内容*!/*/
+/*.equipment_container ,.attendance_rate{*/
+    /*width: 100%;*/
+    /*height: 310px;*/
+    /*border: 1px solid #D6D6D6;*/
+
+/*}*/
+/*.equipment_container>div{*/
+    /*float: left;*/
+/*}*/
+/*/!*内容的左边图像标注*!/*/
+/*.equipment .equipment_container_left{*/
+    /*position: relative;*/
+    /*width: 300px;*/
+    /*height: 100%;*/
+    /*background:url(../imgs/buoy_yellow.png)no-repeat 58px 81px;*/
+    /*background-size:166px 166px;*/
+/*}*/
+
+/*.equ_name{*/
+    /*position: absolute;*/
+    /*top:266px;*/
+    /*left:80px;*/
+    /*font-size: 13px;*/
+    /*font-weight: 700;*/
+/*}*/
+
+/*/!*需要动态获取数据添加到页面的ul*!/*/
+/*.equipment .img_label{*/
+    /*position: absolute;*/
+    /*width: 10px;*/
+    /*height: 10px;*/
+    /*top: -5px;*/
+    /*left: 0px;*/
+
+/*}*/
+
+/*.equipment .img_label>li{*/
+    /*width: 100px;*/
+    /*height: 15px;*/
+    /*font-size: 12px;*/
+    /*border-bottom:1px solid gray;*/
+    /*position: absolute;*/
+    /*margin-top: 20px;*/
+    /*padding-bottom: 5px;*/
+/*}*/
+
+/*/!*左边  图标的小方块*!/*/
+/*.img_label>li>span{*/
+    /*position: absolute;*/
+    /*display: block;*/
+    /*width: 5px;*/
+    /*height: 5px;*/
+    /*background: gray;*/
+    /*right: -5px;*/
+    /*bottom:-2.5px;*/
+    /*transform: rotate(45deg);*/
+/*}*/
+/*/!*右边 图标的小方块*!/*/
+/*.img_label_right>span{*/
+    /*left: -5px;*/
+    /*bottom:-2.5px;*/
+/*}*/
+/*.img_label>li:nth-child(1){*/
+    /*top:80px;*/
+    /*width: 102px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(2){*/
+    /*top:112px;*/
+    /*width: 106px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(3){*/
+    /*top:138px;*/
+    /*width: 106px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(4){*/
+    /*top:168px;*/
+    /*width: 108px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(5){*/
+    /*top:197px;*/
+    /*width: 108px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(6){*/
+    /*top:55px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(7){*/
+    /*top:99px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(8){*/
+    /*/!*top:125px;*!/*/
+    /*top:55px;*/
+
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(9){*/
+    /*top:99px;*/
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(10){*/
+    /*top:125px;*/
+    /*width: 130px;*/
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(11){*/
+    /*top:154px;*/
+    /*width: 130px;*/
+/*}*/
+
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(12){*/
+    /*top:182px;*/
+    /*width: 130px;*/
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>li:nth-child(13){*/
+    /*top:182px;*/
+    /*width: 130px;*/
+/*}*/
+/*.equipment_container>.equipment_container_left>.img_label>.img_label_left{*/
+    /*left:15px;*/
+    /*text-align: left;*/
+    /*width: 109px;*/
+
+/*}*/
+
+/*.equipment_container>.equipment_container_left>.img_label>.img_label_right{*/
+    /*right:-274px;*/
+    /*text-align: right;*/
+    /*width: 136px;*/
+/*}*/
+
+/*内容的右边*/
+.equipment_container_right{
+    /*margin-top: 45px;*/
+    margin-top:  -346px;
+    margin-left: 50px;
+    position: absolute;
+    width: 170px;
+    height: 238px;
+    /*background: red;*/
+    border: 1px solid #000;
+
+}
+.equipment_container_right_introduce{
+    position: relative;
+    width: 170px;
+    height: 238px;
+
+    border: 1px solid #D6D6D6;
+    border-radius: 6px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+
+.equipment_container_right_introduce p{
+    font-size: 13px;
+    height: 28px;
+    line-height: 28px;
+}
+/*右边的第一个p*/
+.equipment_container_right_introduce p:nth-child(1){
+    position: absolute;
+    font-size: 13px;
+    font-weight: 700;
+    background:#FEB524;
+    width: 113px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 6px;
+}
+/*右边的第二个p*/
+.equipment_container_right p:nth-child(2){
+    margin-top: 37px;
+    font-size:11px;
+    color:#333333;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #20477F;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.opacity{
+    position: absolute!important;
+    top: 0;
+    left: -9999px;
+}
